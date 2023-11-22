@@ -20,13 +20,7 @@
 			
 
 			?>
-			<div class="container m-5">
-				<div class="row m-5">
-					<div class="col d-flex flex-column justify-content-center align-items-center m-5 text-danger">
-					<?php the_content(); ?>
-					</div>
-				</div>
-			</div>
+			
 		</div>
 	</main>
 

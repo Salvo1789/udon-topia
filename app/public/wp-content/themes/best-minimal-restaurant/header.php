@@ -151,7 +151,7 @@ $header_class = $show_title ? 'site-title' : 'screen-reader-text';
 								<!--mobile-menu ends-->
 								<?php if ( isset( $best_minimal_restaurant_settings ) && isset( $best_minimal_restaurant_settings['show-reservation-button'] ) && '1' === $best_minimal_restaurant_settings['show-reservation-button'] ) : ?>
 									<div class="header_btn md-none">
-										<a href="<?php echo esc_url( $best_minimal_restaurant_settings['reservation-button-url'] ); ?>" class="btn v3"><?php echo esc_html( $best_minimal_restaurant_settings['reservation-button-text'] ); ?></a>
+										<a href="<?php echo esc_url( $best_minimal_restaurant_settings['reservation-button-url'] ); ?>" class="btn v3">PRENOTA</a>
 									</div>
 								<?php endif; ?>
 							</div>

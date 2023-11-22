@@ -56,13 +56,13 @@ $visible_sections = apply_filters( 'best_minimal_restaurant_menu_visible_section
 					</div>
 				</div>
 			</div>
-			<div class="row">
+			<!-- <div class="row">
 				<div class="col-md-12">
 					<div class="item_box_wrap">
 						<?php echo do_shortcode( get_field( 'menu-shortcode' ) ); ?>
 					</div>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</section>
 <?php endif; ?>

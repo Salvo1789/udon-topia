@@ -23,7 +23,7 @@ $cta_background = isset( $best_minimal_restaurant_settings['cta-background'] ) &
 						<div class="br_one v1"></div>
 						<?php if ( isset( $best_minimal_restaurant_settings['start-time'] ) && isset( $best_minimal_restaurant_settings['end-time'] ) ) : ?>
 							<div class="cta_info">
-								<h4><?php esc_html_e( 'Open', 'best-minimal-restaurant' ); ?>:</h4>
+								<h4><?php esc_html_e( 'Orario di apertura', 'best-minimal-restaurant' ); ?>:</h4>
 								<span><?php echo esc_html( $best_minimal_restaurant_settings['start-time'] ); ?> - <?php echo esc_html( $best_minimal_restaurant_settings['end-time'] ); ?></span>
 							</div>
 						<?php endif; ?>
@@ -32,7 +32,7 @@ $cta_background = isset( $best_minimal_restaurant_settings['cta-background'] ) &
 						<?php endif; ?>
 						<?php if ( isset( $best_minimal_restaurant_settings['phone'] ) && ! empty( $best_minimal_restaurant_settings['phone'] ) ) : ?>
 							<div class="cta_info">
-								<h4><?php esc_html_e( 'Phone', 'best-minimal-restaurant' ); ?>:</h4>
+								<h4><?php esc_html_e( 'Telefono', 'best-minimal-restaurant' ); ?>:</h4>
 								<a href="tel:<?php echo esc_attr( $best_minimal_restaurant_settings['phone'] ); ?>"><?php echo esc_html( $best_minimal_restaurant_settings['phone'] ); ?></a>
 							</div>
 						<?php endif; ?>
@@ -43,7 +43,7 @@ $cta_background = isset( $best_minimal_restaurant_settings['cta-background'] ) &
 							</div>
 						<?php endif; ?>
 						<?php if ( isset( $best_minimal_restaurant_settings ) && isset( $best_minimal_restaurant_settings['show-reservation-button'] ) && '1' === $best_minimal_restaurant_settings['show-reservation-button'] ) : ?>
-							<a href="<?php echo esc_url( $best_minimal_restaurant_settings['reservation-button-url'] ); ?>" class="btn v1"><?php esc_html_e( 'make reservation', 'best-minimal-restaurant' ); ?></a>
+							<a href="<?php echo esc_url( $best_minimal_restaurant_settings['reservation-button-url'] ); ?>" class="btn v1"><?php esc_html_e( 'prenota', 'best-minimal-restaurant' ); ?></a>
 						<?php endif; ?>
 					</div>
 				</div>
